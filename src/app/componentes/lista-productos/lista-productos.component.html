@@ -1,0 +1,10 @@
+<div class="container-tarjetas">
+    <div class="tarjeta" *ngFor="let producto of productos">
+        <img src="{{producto.imageUrl}}" alt="imagen">
+        <h3>{{producto.name}}</h3>
+        <div>
+            <span>{{ producto.unitPrice | currency: "USD"}}</span>
+            <span>Stock: {{ producto.unitsInStock }}U.</span>
+        </div>
+    </div>
+</div>

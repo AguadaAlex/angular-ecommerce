@@ -1,0 +1,30 @@
+.container-tarjetas{
+    max-width: 1024px;
+    margin: 30px auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, auto));
+    gap: 1rem;
+}
+
+.tarjeta{
+    border: 2px solid black; border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+    box-shadow: 9px 13px 11px -3px rgba(0,0,0,0.51);
+    -webkit-box-shadow: 9px 13px 11px -3px rgba(0,0,0,0.51);
+    -moz-box-shadow: 9px 13px 11px -3px rgba(0,0,0,0.51);
+}
+
+.tarjeta div{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.tarjeta img{
+    width: 100%;
+}

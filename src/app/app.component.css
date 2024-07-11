@@ -1,0 +1,35 @@
+/* google font */
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Source Sans 3", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+h1{
+    font-size: 4rem;
+    font-weight: bold;
+    width: 100%;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    animation: flotar 2s infinite;
+    margin: 5px 0;
+}
+
+@keyframes flotar{
+    0%{
+        transform: translateY(20px);
+        color: red;
+    }50%{
+        transform: translateY(0px);
+        color: blue;
+    }100%{
+        transform: translateY(20px);
+        color: green;
+    } 
+}
